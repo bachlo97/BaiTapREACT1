@@ -24,7 +24,11 @@ export default class Body extends Component {
       <>
         <Banner />
         <section className='pt-4'>
-          <div className='class="container px-lg-5'>
+          <div className='class="container px-lg-5'
+          style={{
+            marginLeft: 104.500,
+            marginRight: 104.500
+          }}>
             <div className='row gx-lg-5'>
               {this.addItem()}
             </div>
